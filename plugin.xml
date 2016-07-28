@@ -43,8 +43,49 @@
         </js-module>
 
         <!-- 添加代码文件的示例 -->
-        <header-file src="src/ios/example.h" />
-        <source-file src="src/ios/example.m" />
+        <header-file src="src/ios/AppDelegate+SideMain.h" />
+        <source-file src="src/ios/AppDelegate+SideMain.m" />
+
+        <header-file src="src/ios/ExampleFiles/CustomViews/MMLogoView.h" target-dir="ExampleFiles/CustomViews" />
+        <source-file src="src/ios/ExampleFiles/CustomViews/MMLogoView.m" target-dir="ExampleFiles/CustomViews" />
+        <resource-file src="src/ios/ExampleFiles/Icons/Icon.png" />
+        <resource-file src="src/ios/ExampleFiles/Icons/Icon-72.png" />
+        <resource-file src="src/ios/ExampleFiles/Icons/Icon-72@2x.png" />
+        <resource-file src="src/ios/ExampleFiles/Icons/Icon@2x.png" />
+
+        <header-file src="src/ios/ExampleFiles/TableViewHelpers/MMCenterTableViewCell.h" target-dir="ExampleFiles/TableViewHelpers" />
+        <source-file src="src/ios/ExampleFiles/TableViewHelpers/MMCenterTableViewCell.m" target-dir="ExampleFiles/TableViewHelpers" />
+        <header-file src="src/ios/ExampleFiles/TableViewHelpers/MMSideDrawerSectionHeaderView.h" target-dir="ExampleFiles/TableViewHelpers" />
+        <source-file src="src/ios/ExampleFiles/TableViewHelpers/MMSideDrawerSectionHeaderView.m" target-dir="ExampleFiles/TableViewHelpers" />
+        <header-file src="src/ios/ExampleFiles/TableViewHelpers/MMSideDrawerTableViewCell.h" target-dir="ExampleFiles/TableViewHelpers" />
+        <source-file src="src/ios/ExampleFiles/TableViewHelpers/MMSideDrawerTableViewCell.m" target-dir="ExampleFiles/TableViewHelpers" />
+        <header-file src="src/ios/ExampleFiles/TableViewHelpers/MMTableViewCell.h" target-dir="ExampleFiles/TableViewHelpers" />
+        <source-file src="src/ios/ExampleFiles/TableViewHelpers/MMTableViewCell.m" target-dir="ExampleFiles/TableViewHelpers" />
+
+        <header-file src="src/ios/ExampleFiles/ViewControllers/PTCenterTableViewController.h" target-dir="ExampleFiles/ViewControllers" />
+        <source-file src="src/ios/ExampleFiles/ViewControllers/PTCenterTableViewController.m" target-dir="ExampleFiles/ViewControllers" />
+        <header-file src="src/ios/ExampleFiles/ViewControllers/PTLeftSideDrawerViewController.h" target-dir="ExampleFiles/ViewControllers" />
+        <source-file src="src/ios/ExampleFiles/ViewControllers/PTLeftSideDrawerViewController.m" target-dir="ExampleFiles/ViewControllers" />
+        <header-file src="src/ios/ExampleFiles/ViewControllers/PTRightSideDrawerViewController.h" target-dir="ExampleFiles/ViewControllers" />
+        <source-file src="src/ios/ExampleFiles/ViewControllers/PTRightSideDrawerViewController.m" target-dir="ExampleFiles/ViewControllers" />
+        <header-file src="src/ios/ExampleFiles/ViewControllers/PTSideDrawerViewController.h" target-dir="ExampleFiles/ViewControllers" />
+        <source-file src="src/ios/ExampleFiles/ViewControllers/PTSideDrawerViewController.m" target-dir="ExampleFiles/ViewControllers" />
+
+        <header-file src="src/ios/ExampleFiles/VisualStateManager/PTDrawerVisualStateManager.h" target-dir="ExampleFiles/VisualStateManager" />
+        <source-file src="src/ios/ExampleFiles/VisualStateManager/PTDrawerVisualStateManager.m" target-dir="ExampleFiles/VisualStateManager" />
+
+
+        <header-file src="src/ios/MMDrawerController/MMDrawerBarButtonItem.h" target-dir="MMDrawerController" />
+        <source-file src="src/ios/MMDrawerController/MMDrawerBarButtonItem.m" target-dir="MMDrawerController" />
+        <header-file src="src/ios/MMDrawerController/MMDrawerController.h" target-dir="MMDrawerController" />
+        <source-file src="src/ios/MMDrawerController/MMDrawerController.m" target-dir="MMDrawerController" />
+        <header-file src="src/ios/MMDrawerController/MMDrawerController+Subclass.h" target-dir="MMDrawerController" />
+        <header-file src="src/ios/MMDrawerController/MMDrawerVisualState.h" target-dir="MMDrawerController" />
+        <source-file src="src/ios/MMDrawerController/MMDrawerVisualState.m" target-dir="MMDrawerController" />
+        <header-file src="src/ios/MMDrawerController/MMNavigationController.h" target-dir="MMDrawerController" />
+        <source-file src="src/ios/MMDrawerController/MMNavigationController.m" target-dir="MMDrawerController" />
+        <header-file src="src/ios/MMDrawerController/UIViewController+MMDrawerController.h" target-dir="MMDrawerController" />
+        <source-file src="src/ios/MMDrawerController/UIViewController+MMDrawerController.m" target-dir="MMDrawerController" />
 
         <!-- 添加图片资源的示例 -->
         <!--<resource-file src="src/ios/icon.png" />-->
